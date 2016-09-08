@@ -1,0 +1,50 @@
+{
+  "name": "build-bsc",
+  "version": "0.0.0",
+  "description": "Atom Build provider for bsc, compiles BuckleScript",
+  "repository": "https://github.com/idleberg/atom-build-bsc",
+  "license": "MIT",
+  "keywords": [
+    "build",
+    "compile",
+    "bucklescript",
+    "ocaml",
+    "javascript",
+    "bsc",
+    "linter",
+    "lint"
+  ],
+  "main": "lib/provider.js",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Compiles BuckleScript",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "package-deps": [
+    "build"
+  ],
+  "dependencies": {
+    "atom-package-deps": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.3.1",
+    "eslint-config-atom-build": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-jsonlint": "^1.1.2",
+    "gulp-lesshint": "^2.0.0",
+    "jshint": "^2.9.3"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  }
+}

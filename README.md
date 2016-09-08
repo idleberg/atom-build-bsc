@@ -7,7 +7,7 @@
 [![David](https://img.shields.io/david/idleberg/atom-build-bsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-bsc#info=dependencies)
 [![David](https://img.shields.io/david/dev/idleberg/atom-build-bsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-bsc?type=dev)
 
-[Atom Build](https://atombuild.github.io/) provider for `bsc`, compiles BuckleScript. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
+[Atom Build](https://atombuild.github.io/) provider for `bsc`, compiles OCaml into JavaScript. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
 ## Installation
 

@@ -38,8 +38,8 @@ $ git clone https://github.com/idleberg/atom-build-bsc build-bsc
 Install Node dependencies:
 
 ```bash
-cd build-bsc
-npm install
+$ cd build-bsc
+$ npm install
 ```
 
 ## Usage

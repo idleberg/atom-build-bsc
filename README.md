@@ -35,10 +35,9 @@ Clone repository as `build-bsc`:
 $ git clone https://github.com/idleberg/atom-build-bsc build-bsc
 ```
 
-Install Node dependencies:
+Inside the cloned directory, install Node dependencies:
 
 ```bash
-$ cd build-bsc
 $ yarn || npm install
 ```
 

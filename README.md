@@ -17,7 +17,7 @@ Install `build-bsc` from Atom's [Package Manager](http://flight-manual.atom.io/u
 
 `$ apm install build-bsc`
 
-### GitHub
+### Using Git
 
 Change to your Atom packages directory:
 

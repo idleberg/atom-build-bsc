@@ -4,7 +4,7 @@
 [![apm](https://img.shields.io/apm/v/build-bsc.svg?style=flat-square)](https://atom.io/packages/build-bsc)
 [![apm](https://img.shields.io/apm/dm/build-bsc.svg?style=flat-square)](https://atom.io/packages/build-bsc)
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-bsc.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-bsc)
-[![David](https://img.shields.io/david/idleberg/atom-build-bsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-bsc#info=dependencies)
+[![David](https://img.shields.io/david/idleberg/atom-build-bsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-bsc)
 [![David](https://img.shields.io/david/dev/idleberg/atom-build-bsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-bsc?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for [BuckleScript](https://github.com/bloomberg/bucklescript), compiles OCaml into JavaScript. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
@@ -50,6 +50,7 @@ Before you can build, select an active target with your preferred build option.
 Available targets:
 
 * `BuckleScript` — compile script (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd>)
+* `BuckleScript (user)` — compile script with arguments specified in the package settings
 
 ### Shortcuts
 

@@ -3,9 +3,8 @@
 [![apm](https://img.shields.io/apm/l/build-bsc.svg?style=flat-square)](https://atom.io/packages/build-bsc)
 [![apm](https://img.shields.io/apm/v/build-bsc.svg?style=flat-square)](https://atom.io/packages/build-bsc)
 [![apm](https://img.shields.io/apm/dm/build-bsc.svg?style=flat-square)](https://atom.io/packages/build-bsc)
-[![Travis](https://img.shields.io/travis/idleberg/atom-build-bsc.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-bsc)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-bsc)](https://circleci.com/gh/idleberg/atom-build-bsc)
 [![David](https://img.shields.io/david/idleberg/atom-build-bsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-bsc)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-bsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-bsc?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for [BuckleScript](https://github.com/bloomberg/bucklescript), compiles OCaml into JavaScript. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
@@ -21,18 +20,22 @@ Install `build-bsc` from Atom's [Package Manager](http://flight-manual.atom.io/u
 
 Change to your Atom packages directory:
 
-```bash
-# Windows
-$ cd %USERPROFILE%\.atom\packages
+**Windows**
 
-# Linux & macOS
-$ cd ~/.atom/packages/
+```powershell
+# Powershell
+$ cd $Env:USERPROFILE\.atom\packages
 ```
 
-Clone repository as `build-bsc`:
+```cmd
+:: Command Prompt
+$ cd %USERPROFILE%\.atom\packages
+```
+
+**Linux & macOS**
 
 ```bash
-$ git clone https://github.com/idleberg/atom-build-bsc build-bsc
+$ cd ~/.atom/packages/
 ```
 
 Inside the cloned directory, install Node dependencies:
@@ -74,4 +77,4 @@ Here's a reminder of the default shortcuts you can use with this package:
 
 ## License
 
-This work is licensed under the [The MIT License](LICENSE.md).
+This work is licensed under the [The MIT License](LICENSE).

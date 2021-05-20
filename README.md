@@ -1,10 +1,10 @@
 # build-bsc
 
-[![apm](https://img.shields.io/apm/l/build-bsc.svg?style=flat-square)](https://atom.io/packages/build-bsc)
-[![apm](https://img.shields.io/apm/v/build-bsc.svg?style=flat-square)](https://atom.io/packages/build-bsc)
-[![apm](https://img.shields.io/apm/dm/build-bsc.svg?style=flat-square)](https://atom.io/packages/build-bsc)
+[![apm](https://flat.badgen.net/apm/license/build-bsc)](https://atom.io/packages/build-bsc)
+[![apm](https://flat.badgen.net/apm/v/build-bsc)](https://atom.io/packages/build-bsc)
+[![apm](https://flat.badgen.net/apm/dl/build-bsc)](https://atom.io/packages/build-bsc)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-bsc)](https://circleci.com/gh/idleberg/atom-build-bsc)
-[![David](https://img.shields.io/david/idleberg/atom-build-bsc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-bsc)
+[![David](https://flat.badgen.net/david/dev/idleberg/atom-build-bsc)](https://david-dm.org/idleberg/atom-build-bsc?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for [BuckleScript](https://github.com/bloomberg/bucklescript), compiles OCaml into JavaScript. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 

@@ -1,6 +1,6 @@
 {
   "name": "build-bsc",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Atom Build provider for BuckleScript, compiles OCaml into JavaScript",
   "repository": "https://github.com/idleberg/atom-build-bsc",
   "license": "MIT",
